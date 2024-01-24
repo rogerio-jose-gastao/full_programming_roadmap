@@ -62,14 +62,17 @@
     transform: rotate(0deg), scale(2);
 }
 
-.bg-slide .circle.large{
+.bg-slide .circle.large,
+.circle_darktransp{
     clip-path: circle(50% at 50% 50%);
 }
 
 .bg-slide .circle.small{
     clip-path: circle(30% at 50% 50%);
+    z-index: 12;
 }
 
 .circle_darktransp{
-    background-color: red;
+    background-color: rgba(0, 0, 0, .1);
+    
 }
