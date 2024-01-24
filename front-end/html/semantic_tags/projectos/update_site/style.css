@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px ;
+}
+
+header .logo{
+    height: 50px;
+    width: 100px;
+    background-image: url(img/logo.jpg);
+}
+
+.navigation ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navigation li a{
+    color: white;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 300;
+
+}
+
+/* .info_contacts{
+    margin-right: 30px;
+} */
+
+.principal_info{
+    height: 800px;
+    width: 100%;
+    background-image: url(img/principal.jpg);
+}
+
+.principal_info .marketing1{
+    align-items: center;
+    margin-left: 200px;
+    padding-top: 200px;
+
+}
+
+.sobre_info{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.marketig2{
+    width: 50%;
+    height: 100%;
+
+}
+
+.imagem_local{
+    background-image: url(img/local.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+    border-image-repeat: none;
+}
+
+.cursos{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.cursos .titulo_cursos a{
+    text-decoration: none;
+    color:blue;
+}
+
+.cursos .titulo2{
+    margin-left: 40px;
+    
+}
+
+.fila_curso{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fila_curso .curso{
+    height: 400px;
+    width: 500px;
+    margin:35px 
+}
+
+.fila_curso .curso .ins_curso{
+    height: 70%;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(img/computer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.fila_curso .curso .des_curso{
+    height: 20%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 10px; */
+    text-align: center;
+}
+
+.fila_curso .curso .adi_infos{
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    
+    width: 100%;
+ 
+}
+
+.fila_curso .curso .adi_infos .in{
+    background-color: blue;
+    margin: 0 2px;
+    width: 100%;
+    align-content:center;
+    text-align: center;
+}
+
