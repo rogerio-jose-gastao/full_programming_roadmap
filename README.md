@@ -2,6 +2,16 @@
 
 Bem-vindo ao Roadmap Completo para Desenvolvedor Experiente! Este guia abrangente oferece orientações para aprimorar suas habilidades em várias áreas de expertise, desde front-end até segurança cibernética. Prepare-se para a jornada!
 
+# **🪩 Engenharia de Requisitos: Uma Visão Detalhada**
+
+A **Engenharia de Requisitos** é uma disciplina crucial no ciclo de vida do desenvolvimento de software, responsável por entender, documentar e gerenciar os requisitos do sistema. Aqui está uma visão ampla e detalhada dessa prática essencial.
+
+## 🧱 System Design 🧱
+
+# **Design de Sistema de Software: Uma Definição Detalhada**
+
+O **Design de Sistema de Software** é uma fase crucial do ciclo de vida do desenvolvimento de software, que ocorre após a conclusão da análise de requisitos. Envolve a criação de uma estrutura organizada e eficiente que permita a implementação de um sistema de software capaz de atender aos requisitos previamente identificados.
+
 ## Front-End Development 🌐
 
 Explore tecnologias avançadas de front-end e aprimore suas habilidades em:
@@ -21,6 +31,12 @@ Aprofunde-se nas melhores práticas do desenvolvimento back-end:
 - **Bancos de Dados:** SQL, NoSQL (MongoDB, PostgreSQL).
 - **APIs e RESTful Services:** Design e implementação eficientes.
 - **Autenticação e Autorização:** JWT, OAuth.
+
+## 🛢️ Bancos de Dados 🗄️
+
+## **Visão Geral:**
+
+Os **Bancos de Dados** desempenham um papel crucial no armazenamento, recuperação e gerenciamento eficiente de dados em sistemas de software. Este guia explora conceitos fundamentais, tipos de bancos de dados e melhores práticas para sua utilização.
 
 ## DevOps 🛠️
 
