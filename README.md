@@ -2,13 +2,13 @@
 
 Bem-vindo ao Roadmap Completo para Desenvolvedor Experiente! Este guia abrangente oferece orientações para aprimorar suas habilidades em várias áreas de expertise, desde front-end até segurança cibernética. Prepare-se para a jornada!
 
-# **🪩 Engenharia de Requisitos: Uma Visão Detalhada**
+# **🪩 Engenharia de Requisitos**
 
 A **Engenharia de Requisitos** é uma disciplina crucial no ciclo de vida do desenvolvimento de software, responsável por entender, documentar e gerenciar os requisitos do sistema. Aqui está uma visão ampla e detalhada dessa prática essencial.
 
 ## 🧱 System Design 🧱
 
-# **Design de Sistema de Software: Uma Definição Detalhada**
+# **Design de Sistema de Software**
 
 O **Design de Sistema de Software** é uma fase crucial do ciclo de vida do desenvolvimento de software, que ocorre após a conclusão da análise de requisitos. Envolve a criação de uma estrutura organizada e eficiente que permita a implementação de um sistema de software capaz de atender aos requisitos previamente identificados.
 
