@@ -9,11 +9,11 @@
     <?php 
 // String Manipulation
 
-    // $con = "Hello World <br>";
-    // $con[0] = "j"; 
-    // echo $con;
-    // echo "Primeiro Project <br/>";
-    // print "Primeiro Project";
+    $con = "Hello World <br>";
+    $con[0] = "j"; 
+    echo $con;
+    echo "Primeiro Project <br/>";
+    print "Primeiro Project";
 
 
 // Switch
