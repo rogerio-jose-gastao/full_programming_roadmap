@@ -18,20 +18,20 @@
 
 // Switch
 
-    // $x = 2;
-    // switch ($x):
-    //     case 1 : echo "x is 1";break;
-    //     case 2: echo "x is 2";break;
-    //     default: echo "x is something else";
-    // endswitch;
+    $x = 2;
+    switch ($x):
+        case 1 : echo "x is 1";break;
+        case 2: echo "x is 2";break;
+        default: echo "x is something else";
+    endswitch;
 
      
-    // switch ($x)
-    // {
-    //    case 1 : echo "x is 1";break;
-    //    case 2: echo "x is 2";break;
-    //    default: echo "x is something else";
-    // }
+    switch ($x)
+    {
+       case 1 : echo "x is 1";break;
+       case 2: echo "x is 2";break;
+       default: echo "x is something else";
+    }
 
 
 // Ternary operator expression
