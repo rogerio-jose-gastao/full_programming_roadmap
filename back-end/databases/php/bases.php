@@ -164,9 +164,9 @@
 
 // Arrow Functions
 
-        // $x = 1; $y = 2;
-        // $myClosure = fn($z) => $x + $y + $z;
-        // echo $myClosure(3);
+        $x = 1; $y = 2;
+        $myClosure = fn($z) => $x + $y + $z;
+        echo $myClosure(3);
 
 
 //  Yield
