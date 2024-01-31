@@ -130,26 +130,26 @@
 
 // Anonymous Function
 
-        // $say = function($name)
-        // {
-        //     echo "Hello " .$name;
-        // };
-        // $say("World");
+        $say = function($name)
+        {
+            echo "Hello " .$name;
+        };
+        $say("World");
 
 
-        // function myCaller($myCallerBack){
-        //     echo $myCallerBack();
-        // }
-        // myCaller(function(){echo "Hello World Bro";});
+        function myCaller($myCallerBack){
+            echo $myCallerBack();
+        }
+        myCaller(function(){echo "Hello World Bro";});
 
 
-        // $a = [1, 2, 3];
-        // $squared = array_map(function($val)
-        // {
-        //     return $val * $val;
-        // }, $a);
-        // foreach ($squared as $v)
-        //     echo $v; 
+        $a = [1, 2, 3];
+        $squared = array_map(function($val)
+        {
+            return $val * $val;
+        }, $a);
+        foreach ($squared as $v)
+            echo $v; 
 
 
 // Closures
