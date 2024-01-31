@@ -43,9 +43,9 @@
 
 // Ternary operator statement
 
-        // $x = 1;
-        // ($x == 1) ? $y = 2: $y = 3;
-        // echo "y number is $y";
+        $x = 1;
+        ($x == 1) ? $y = 2: $y = 3;
+        echo "y number is $y";
 
 
 // Match
