@@ -171,24 +171,24 @@
 
 //  Yield
 
-        // function numGen(){
-        //     for ($i= 0; $i < 5; $i++){
-        //         yield $i;
-        //     }
-        // }
-        // foreach (numGen() as $v){
-        //     echo $v;
-        // }
+        function numGen(){
+            for ($i= 0; $i < 5; $i++){
+                yield $i;
+            }
+        }
+        foreach (numGen() as $v){
+            echo $v;
+        }
 
 
-        // function countToFive(){
-        //     yield 1;
-        //     yield from [2,3,4];
-        //     yield 5;
-        // }
-        // foreach (countToFive() as $v){
-        //     echo $v;
-        // }
+        function countToFive(){
+            yield 1;
+            yield from [2,3,4];
+            yield 5;
+        }
+        foreach (countToFive() as $v){
+            echo $v;
+        }
 
 // Classes
 
