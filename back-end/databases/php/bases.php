@@ -36,9 +36,9 @@
 
 // Ternary operator expression
 
-        // $x=1;
-        // $y= ($x == 1) ? 1 : 0; 
-        // echo "y number is $y."; 
+        $x=1;
+        $y= ($x == 1) ? 1 : 0; 
+        echo "y number is $y."; 
 
 
 // Ternary operator statement
