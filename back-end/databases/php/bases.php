@@ -83,19 +83,19 @@
 
 // Do While
 
-        // $i = 0;
-        // $virg= ",";
-        // do {echo $i++,$virg;} while($i <= 10);
+        $i = 0;
+        $virg= ",";
+        do {echo $i++,$virg;} while($i <= 10);
 
         
-        // For
+        For
         
-        // $i = 0;
-        // $virg= ",";
-        // for ($i = 0; $i < 10; $i++) {echo $i,$virg;};
+        $i = 0;
+        $virg= ",";
+        for ($i = 0; $i < 10; $i++) {echo $i,$virg;};
         
 
-        // for ($a=0; $a<=5; $a++){echo $a;};
+        for ($a=0; $a<=5; $a++){echo $a;};
 
 
 // Function
