@@ -100,32 +100,32 @@
 
 // Function
 
-        // function myFunction(){
-        //     echo "Hello World";
-        // };
+        function myFunction(){
+            echo "Hello World";
+        };
         
-        // myFunction();
+        myFunction();
 
 
-        // function myFunc($x, $y = "World"){
-        //     echo $x . $y;
-        // }
+        function myFunc($x, $y = "World"){
+            echo $x . $y;
+        }
 
-        // myFunc("Hello ");
-
-
-        // function orientation($a, $b, $c){
-        //     echo $a,$b,$c;
-        // }
-
-        // orientation(c:3, b:1, a:2);
+        myFunc("Hello ");
 
 
-        // function Returning(){
-        //     return "Everything Okay";
-        // }
+        function orientation($a, $b, $c){
+            echo $a,$b,$c;
+        }
 
-        // echo Returning();
+        orientation(c:3, b:1, a:2);
+
+
+        function Returning(){
+            return "Everything Okay";
+        }
+
+        echo Returning();
 
 
 // Anonymous Function
