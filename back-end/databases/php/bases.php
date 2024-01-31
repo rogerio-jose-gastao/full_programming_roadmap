@@ -192,19 +192,19 @@
 
 // Classes
 
-//         class Rectangle{
-//                 public $x, $y;
-//                 function newArea($a, $b){
-//                         return $a * $b;
-//                 }     
-//                 function getArea(){
-//                         return $this->newArea($this->x, $this->y);
-//                 }
-//        };
-//        $r = new Rectangle();
-//        $r->x = 10;
-//        $r->y = 5;
-//        $r->getArea();
+        class Rectangle{
+                public $x, $y;
+                function newArea($a, $b){
+                        return $a * $b;
+                }     
+                function getArea(){
+                        return $this->newArea($this->x, $this->y);
+                }
+       };
+       $r = new Rectangle();
+       $r->x = 10;
+       $r->y = 5;
+       $r->getArea();
 
 
         
