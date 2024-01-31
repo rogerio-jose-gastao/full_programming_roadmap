@@ -154,12 +154,12 @@
 
 // Closures
 
-        // $x=1; $y=2;
+        $x=1; $y=2;
 
-        // $myClosure = function($z) use ($x, $y){
-        //     return $z + $x + $z;
-        // };
-        // echo $myClosure(3);
+        $myClosure = function($z) use ($x, $y){
+            return $z + $x + $z;
+        };
+        echo $myClosure(3);
 
 
 // Arrow Functions
