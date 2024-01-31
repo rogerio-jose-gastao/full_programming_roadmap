@@ -88,7 +88,7 @@
         do {echo $i++,$virg;} while($i <= 10);
 
         
-        For
+// For
         
         $i = 0;
         $virg= ",";
