@@ -70,15 +70,15 @@
 
 // while
 
-        // $i = 0;
-        // while ($i <= 10)echo $i++;
+        $i = 0;
+        while ($i <= 10)echo $i++;
         
 
-        // $i = 0;
-        // while ($i < 10) {
-        //     $i++;
-        //     echo "$i<br>";
-        // }
+        $i = 0;
+        while ($i < 10) {
+            $i++;
+            echo "$i<br>";
+        }
 
 
 // Do While
