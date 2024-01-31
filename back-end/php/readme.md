@@ -38,7 +38,7 @@ O PHP é uma linguagem de script do lado do servidor projetada para desenvolvime
 
 ## PHP: A Magia dos Elefantes 🎩✨
 
-Olá, queridos desenvolvedores e amantes do PHP! 😄 Estamos muito empolgados em apresentar a última versão do PHP, repleta de recursos incríveis e melhorias para tornar sua experiência de desenvolvimento ainda mais espetacular! 🌟
+Olá, queridos desenvolvedores e amantes do PHP! 😄 Estamos muito empolgados em apresentar as maravilhas do PHP, repleta de recursos incríveis e melhorias para tornar sua experiência de desenvolvimento ainda mais espetacular! 🌟
 
 ### O Que Há de Novo? 🆕
 
