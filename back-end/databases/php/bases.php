@@ -50,23 +50,23 @@
 
 // Match
 
-        // $x=1;
+        $x=1;
 
-        // $output = match($x){
-        //     1 => True,
-        //     2 => False,
-        //     default => $output = UNKNOWN_TYPE,
-        // };
-        // echo $output;
+        $output = match($x){
+            1 => True,
+            2 => False,
+            default => $output = UNKNOWN_TYPE,
+        };
+        echo $output;
 
 
-        // $x='1';
-        // $output = match($x){
-        //     1 => "Integer",
-        //     '1' => "String",
-        // };
+        $x='1';
+        $output = match($x){
+            1 => "Integer",
+            '1' => "String",
+        };
 
-        // echo $output;
+        echo $output;
 
 // while
 
