@@ -41,6 +41,6 @@ quality software product.
 - **Maintainability**
 - **Modularity**
 
-## SOFTWARE DEVEPLOMENT LIFE CYCLE🌀
+
 
 
