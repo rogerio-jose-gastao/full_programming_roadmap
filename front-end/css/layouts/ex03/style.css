@@ -48,4 +48,38 @@ header{
     background-color: lightgray;
     line-height: 100px;
     text-align: center;
+    margin-bottom: 10px;
+}
+
+main{
+    min-height: 400px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#box{
+    width: 30%;
+    height: 400px;
+    background-color: lightgray;
+    float: left;
+    text-align: center;
+    line-height: 400px;
+}
+
+main #box:nth-child(2){
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer{
+    min-height: 100px;
+    width: 100%;
+    background-color: lightgray;
+    line-height: 100px;
+    text-align: center;
+}
+
+.wrapper{
+    width: 80%;
+    margin: auto;
 }
