@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+#logo_nav{
+    min-height: 50px;
+    width: 100%;
+    background-color: lightgray;
+    margin-bottom: 10px;
+}
+
+.clearflix{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.logo{
+    min-height: 50px;
+    width: 50%;
+    float: left;
+    line-height: 50px;
+    padding-left: 2%;
+}
+
+nav{
+    min-height: 50px;
+    width: 50%;
+    float: right;
+    line-height: 50px;
+}
+
+header{
+    min-height:100px;
+    width: 100%;
+    background-color: lightgray;
+    line-height: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.intro-div{
+    min-height:100px;
+    width: 100%;
+    background-color: lightgray;
+    line-height: 100px;
+    text-align: center;
+}
