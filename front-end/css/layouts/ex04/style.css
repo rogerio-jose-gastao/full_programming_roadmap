@@ -2,4 +2,70 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    min-height: 100px;
+    width: 80%;
+    margin: auto;
+}
+
+.logo{
+    background-color: lightgray;
+    min-height: 50px;
+    width: 100%;
+    line-height: 50px;
+    padding-left: 2%;
+    margin-bottom: 10px;
+    
+}
+
+main{
+    width: 100%;
+    min-height: 500px;
+    margin-bottom: 10px;
+    }
+
+.left{
+    min-height: 500px;
+    width: 25%;
+    float: left;
+}
+
+.right{
+    min-height: 500px;
+    width: 70%;
+    float: right;
+}
+
+.clearflix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+header{
+    min-height: 150px;
+    width: 100%;
+    background-color: lightgray;
+    margin-bottom: 50px;
+    line-height: 150px;
+    text-align: center;
+}
+
+article{
+    min-height: 300px;
+    width: 100%;
+    background-color: lightgray;
+    line-height: 300px;
+    text-align: center;
+}
+
+footer{
+    min-height: 50px;
+    width: 100%;
+    background-color: lightgray;
+    line-height: 50px;
+    text-align: center;
 }
