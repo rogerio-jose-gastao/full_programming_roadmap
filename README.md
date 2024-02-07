@@ -34,8 +34,6 @@ Aprofunde-se nas melhores práticas do desenvolvimento back-end:
 
 ## 🛢️ Bancos de Dados 🗄️
 
-## **Visão Geral:**
-
 Os **Bancos de Dados** desempenham um papel crucial no armazenamento, recuperação e gerenciamento eficiente de dados em sistemas de software. Este guia explora conceitos fundamentais, tipos de bancos de dados e melhores práticas para sua utilização.
 
 ## DevOps 🛠️
