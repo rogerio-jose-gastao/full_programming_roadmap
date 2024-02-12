@@ -1,0 +1,27 @@
+*{
+    background-color: bisque;
+}
+
+#static{
+    width: 80%;
+    height: 200px;
+    position: static;
+    background-color: rgba(255, 0, 0, .7);
+}
+
+#relative{
+    width: 80%;
+    height: 200px;
+    position: relative;
+    background-color: rgba(0, 255, 0, .3);
+    left: 30px;
+    top: 50px;
+}
+
+
+#absolute{
+    width: 80%;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(0, 0, 255, .3);
+}
