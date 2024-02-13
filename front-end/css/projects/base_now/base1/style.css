@@ -3,8 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    display: block;
-    font-family: "Poppins" sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 header{
@@ -39,7 +38,7 @@ header menu{
 header menu ul{   
     display: flex;
     flex-direction: row;
-    
+    list-style: none;
 }
 header menu ul li{
     margin-left: 20px;
@@ -76,7 +75,7 @@ header menu .search-bag .bag a{
 
 header menu .search-bag .search,
 header menu .search-bag .bag{
-    margin-right: 10px;
+    margin-right: 15px;
 }
 header .search-bag{   
     display: flex;
@@ -86,7 +85,18 @@ header .search-bag{
 .product-promo{
     background-color: red;
     width: 100%;
-    height: 100px;
+    height: 20vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("img/product1.jpg");
+    background-size: cover;
+}
+
+.product-promo h1,
+.product-promo p{
+    margin-left: 50px;
 }
 
 main{
@@ -101,16 +111,17 @@ main{
 main aside{
     width: 25%;
     height: 100%;
-    background-color: blue;
+    background-color: #303030;
 }
 main article{
-    background-color: darkcyan;
+    background-color: #151515;
     width: 75%;
     height: 100%;
 
 }
 
 footer{
+    padding:20px 0 50px 0;
     width: 100%;
     height: 20vh;
     width: 100%;
@@ -118,14 +129,40 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     color: #fff;
 }
 
 footer .f-info{
     margin-left: 50px;
 }
+footer .f-info ul{
+    list-style: none;
+}
+footer .f-info ul li{
+    margin: 10px 0;
+}
+footer .f-products ul{
+    list-style: none;
+}
+footer .f-products ul li{
+    margin: 10px 0;
+}
+
+footer .f-partners ul{
+    list-style: none;
+}
+footer .f-partners ul li{
+    margin: 10px 0;
+}
+
 footer .f-social{
     margin-right: 50px;
-
 }
+
+footer .f-social ul{
+    list-style: none;
+}
+footer .f-social ul li{
+    margin: 10px 0;
+}
+
