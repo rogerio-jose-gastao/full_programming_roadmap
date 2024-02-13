@@ -1,5 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    display: block;
+    font-family: "Poppins" sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    background: #202020;
+    color: #fff;
+}
+
+header .logo{
+    margin-left: 20px;
+    width: 40%;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+header .logo a{
+    text-decoration: none;
+    color: #fff;
+}
+header menu{   
+    width: 60%; 
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header menu ul{   
+    display: flex;
+    flex-direction: row;
     
+}
+header menu ul li{
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+header menu li a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+header menu .search-bag .search{
+    height: 20px;
+    width: 20px;
+    background-size: 20px;
+    cursor: pointer;
+}
+header menu .search-bag .bag{
+    height: 20px;
+    width: 20px;
+
+    background-size: 20px;
+    cursor: pointer;
+}
+header menu .search-bag .search a, 
+header menu .search-bag .bag a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+header menu .search-bag .search,
+header menu .search-bag .bag{
+    margin-right: 10px;
+}
+header .search-bag{   
+    display: flex;
+    flex-direction: row;
+}
+
+.product-promo{
+    background-color: red;
+    width: 100%;
+    height: 100px;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background: gray;
+    display: flex;
+    flex-direction: row;
+
+}
+
+main aside{
+    width: 25%;
+    height: 100%;
+    background-color: blue;
+}
+main article{
+    background-color: darkcyan;
+    width: 75%;
+    height: 100%;
+
+}
+
+footer{
+    width: 100%;
+    height: 20vh;
+    width: 100%;
+    background: #202020;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+footer .f-info{
+    margin-left: 50px;
+}
+footer .f-social{
+    margin-right: 50px;
+
 }
