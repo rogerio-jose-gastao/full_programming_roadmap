@@ -1,7 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
+body {
     margin: 30px;
     font-family: "Poppins", sans-serif;
 }
 
+.grid-container {
+    background: #eee;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px 200px 300px;
+    max-width: 900px;
+    margin: 0 auto;
+    gap: 10px;
+
+}
+
+.grid-container>div {
+    border: 1px solid gray;
+    background: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-container>div:nth-child(1) {
+    grid-column: 1/ span 2;
+}
+
+.grid-container>div:nth-child(2) {
+    grid-column: span 3;
+}
+
+.grid-container>div:nth-child(3) {
+    grid-column: span 1;
+}
+
+.grid-container>div:nth-child(4) {
+    grid-column: 2 / span 4;
+    max-height: 200px;
+}
+
+.grid-container>div:nth-child(5) {
+    grid-column: span 3;
+}
+
+.grid-container>div:nth-child(6) {
+    grid-column: span 3;
+}
